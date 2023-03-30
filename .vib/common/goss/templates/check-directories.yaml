@@ -4,12 +4,13 @@
 # Needed vars:
 #   - .Vars.directories (Array)
 #   - .Vars.directories.paths (Array)
-#   - .Vars.directories.mode (Optional - String)
+# Optional vars:
+#   - .Vars.directories.mode (String)
 ########################
 file:
   {{ range .Vars.directories }}
   {{ $mode := "" }}
-  {{ if (gt (len .) 1) }}
+  {{ if contains "mode:" (. | toString) }}
   {{ $mode = .mode }}
   {{ end }}
   {{ range $directory := .paths }}

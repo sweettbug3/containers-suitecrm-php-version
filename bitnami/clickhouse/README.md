@@ -5,7 +5,6 @@
 > ClickHouse is an open-source column-oriented OLAP database management system. Use it to boost your database performance while providing linear scalability and hardware efficiency.
 
 [Overview of ClickHouse](https://clickhouse.com/)
-
 Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
 
 ## TL;DR
@@ -167,11 +166,11 @@ ClickHouse can be configured via environment variables or using a configuration 
 
 ### Configuration overrides
 
-The configuration can easily be setup by mounting your own configuration overrides on the directory `/bitnami/clickhouse/conf/conf.d` or `/bitnami/clickhouse/conf/users.d`:
+The configuration can easily be setup by mounting your own configuration overrides on the directory `/bitnami/clickhouse/etc/conf.d` or `/bitnami/clickhouse/etc/users.d`:
 
 ```console
 docker run --name clickhouse \
-    --volume /path/to/override.xml:/bitnami/clickhouse/conf/conf.d/override.xml:ro \
+    --volume /path/to/override.xml:/bitnami/clickhouse/etc/conf.d/override.xml:ro \
     bitnami/clickhouse:latest
 ```
 

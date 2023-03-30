@@ -5,7 +5,6 @@
 > TensorFlow ResNet is a client utility for use with TensorFlow Serving and ResNet models.
 
 [Overview of TensorFlow ResNet](https://github.com/tensorflow/models)
-
 Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
 
 ## TL;DR
@@ -92,7 +91,7 @@ If you want to run the application manually instead of using docker-compose, the
 
 ## Upgrade this application
 
-Bitnami provides up-to-date versions of Tensorflow-Serving and TensorFlow ResNet client, including security patches, soon after they are made upstream. We recommend that you follow these steps to upgrade your container. We will cover here the upgrade of the TensorFlow ResNet client container. For the Tensorflow-Serving upgrade see <https://github.com/bitnami/containers/blob/main/bitnami/tensorflow-serving/blob/master/README.md#upgrade-this-image>
+Bitnami provides up-to-date versions of Tensorflow-Serving and TensorFlow ResNet client, including security patches, soon after they are made upstream. We recommend that you follow these steps to upgrade your container. We will cover here the upgrade of the TensorFlow ResNet client container. For the Tensorflow-Serving upgrade see <https://github.com/bitnami/containers/tree/main/bitnami/tensorflow-serving#user-content-upgrade-this-image>
 
 1. Get the updated images:
 

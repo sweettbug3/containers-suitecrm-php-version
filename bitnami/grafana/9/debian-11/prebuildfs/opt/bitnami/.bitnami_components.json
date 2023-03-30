@@ -1,16 +1,14 @@
 {
     "gosu": {
         "arch": "amd64",
-        "digest": "f6056076afb745fd7d9d87d20f71e7248d63330352cf5ae0be2130b7f44a8cfa",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.16.0-2"
+        "version": "1.16.0-3"
     },
     "grafana": {
         "arch": "amd64",
-        "digest": "582764d1829879fb936c2e1b750a2e15298bc0b1c9ee00aa6ea624b5a220b2c1",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "9.4.2-0"
+        "version": "9.4.7-0"
     }
 }

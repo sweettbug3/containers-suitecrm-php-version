@@ -1,58 +1,50 @@
 {
     "gosu": {
         "arch": "amd64",
-        "digest": "f6056076afb745fd7d9d87d20f71e7248d63330352cf5ae0be2130b7f44a8cfa",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.16.0-2"
+        "version": "1.16.0-3"
     },
     "mastodon": {
         "arch": "amd64",
-        "digest": "97f3823bc14dd301023274116ff24ce75b8bae6b6e9fe0b1094b790cc5c64c45",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "4.1.0-0"
+        "version": "4.1.1-1"
     },
     "node": {
         "arch": "amd64",
-        "digest": "af036d4ce8c216d61f662a522345caac4f4822fec1fdb2383302b5b1b9f2ffc9",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "16.19.1-1"
+        "version": "16.19.1-2"
     },
     "postgresql-client": {
         "arch": "amd64",
-        "digest": "29659c3d87558bf03d65ffd4dfd4fee76cc89e05ec0ac595e26dc72b8e15dc14",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "15.2.0-1"
+        "version": "15.2.0-2"
     },
     "python": {
         "arch": "amd64",
-        "digest": "d1ef0d0e577eb68d61ffda2378cb61c756d6a92db7e0ead6ed8c2b19e600ee77",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "3.8.16-6"
+        "version": "3.8.16-8"
     },
     "redis-client": {
         "arch": "amd64",
-        "digest": "bce7d8b5648748463af83b48999a1a6d9b83db73295f2cd57d1caa5a0a028216",
         "distro": "debian-11",
         "type": "NAMI",
         "version": "7.0.9-0"
     },
     "ruby": {
         "arch": "amd64",
-        "digest": "39428f0e9ae6023c043d4e00810a62275a26e59d21e3f748d11e674e999bf49c",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "3.0.5-4"
+        "version": "3.0.5-5"
     },
     "wait-for-port": {
         "arch": "amd64",
-        "digest": "be7c393d598ddf16d1c3c008a67b87879e48aca62071a208583390f2b41e6744",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.0.6-1"
+        "version": "1.0.6-2"
     }
 }

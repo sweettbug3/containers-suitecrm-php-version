@@ -5,7 +5,6 @@
 > Keycloak is a high performance Java-based identity and access management solution. It lets developers add an authentication layer to their applications with minimum effort.
 
 [Overview of Keycloak](https://www.keycloak.org/)
-
 Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
 
 ## TL;DR
@@ -82,7 +81,13 @@ The Bitnami Keycloak container can create a default admin user by setting the fo
 * `KEYCLOAK_MANAGEMENT_USER`: WildFly default management user. Default: **manager**.
 * `KEYCLOAK_MANAGEMENT_PASSWORD`: WildFly default management password. Default: **bitnami1**.
 
-### Connecting to a PostgreSQL database
+### Connecting to a database
+
+The Bitnami Keycloak container can connect to a database by setting the following environment variables:
+
+* `KEYCLOAK_DATABASE_VENDOR`: Database vendor. Default: **postgresql**. Use **dev-mem** or **dev-file** to use an in-memory or file-based database for development purposes.
+
+### PostgreSQL database connection configuration
 
 The Bitnami Keycloak container requires a PostgreSQL database to work. This is configured with the following environment variables:
 

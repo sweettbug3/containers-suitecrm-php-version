@@ -6,8 +6,6 @@
 
 [Overview of harbor-exporter](https://github.com/goharbor/harbor)
 
-
-
 ## TL;DR
 
 This container is part of the [Harbor solution](https://github.com/bitnami/charts/tree/main/bitnami/harbor) that is primarily intended to be deployed in Kubernetes. You can deploy Harbor solution and then enable this specific container with the command below:
@@ -48,7 +46,7 @@ Subscribe to project updates by watching the [bitnami/containers GitHub repo](ht
 
 harbor-exporter is a component of the Harbor application. In order to get the Harbor application running on Kubernetes we encourage you to check the [bitnami/harbor Helm chart](https://github.com/bitnami/charts/tree/master/bitnami/harbor) and configure it using the options exposed in the values.yaml file.
 
-For further information about the specific component itself, please refer to the [source repository documentation](https://github.com/goharbor/harbor/tree/master/docs).
+For further information about the specific component itself, please refer to the [source repository documentation](https://github.com/goharbor/harbor/tree/main/docs
 
 ## Contributing
 

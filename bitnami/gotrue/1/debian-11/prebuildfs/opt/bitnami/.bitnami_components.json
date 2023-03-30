@@ -1,9 +1,8 @@
 {
     "gotrue": {
         "arch": "amd64",
-        "digest": "9a42f3b20031fe99b8afcd34d6519ae71d76d68f09dd497f90bcb740d7d273ee",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.0.1-1"
+        "version": "1.0.1-2"
     }
 }

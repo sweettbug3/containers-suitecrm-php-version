@@ -1,44 +1,38 @@
 {
     "gosu": {
         "arch": "amd64",
-        "digest": "f6056076afb745fd7d9d87d20f71e7248d63330352cf5ae0be2130b7f44a8cfa",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.16.0-2"
+        "version": "1.16.0-3"
     },
     "mysql-client": {
         "arch": "amd64",
-        "digest": "dbc087bd90a6387956751464da45660229b3e7349b96099805e61dcbc2514853",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "10.6.12-1"
+        "version": "10.6.12-2"
     },
     "nginx": {
         "arch": "amd64",
-        "digest": "d91f7d25430a4c7fa7d2bf1dc4525b925fa54dbcd3aca669be9909624115307e",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.23.3-3"
+        "version": "1.23.4-0"
     },
     "php": {
         "arch": "amd64",
-        "digest": "a10f96a58910715edded557f5e8f59be11b73132257b024cab6ddc864eac186e",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "8.1.16-2"
+        "version": "8.1.17-3"
     },
     "render-template": {
         "arch": "amd64",
-        "digest": "185e277977366ec222d2bde1a395ffa138ce1a9d3bdf1df20c3e49e8b8f9c68b",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.0.5-1"
+        "version": "1.0.5-2"
     },
     "wordpress": {
         "arch": "amd64",
-        "digest": "e8102a1944de8acff7bcf6f6ed2cacbf1bfe2f1b5aaae7ca69c8f6b838b1c363",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "6.1.1-32"
+        "version": "6.1.1-45"
     }
 }

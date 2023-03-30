@@ -1,23 +1,20 @@
 {
     "gosu": {
         "arch": "amd64",
-        "digest": "f6056076afb745fd7d9d87d20f71e7248d63330352cf5ae0be2130b7f44a8cfa",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "1.16.0-2"
+        "version": "1.16.0-3"
     },
     "java": {
         "arch": "amd64",
-        "digest": "be7aa8950dacdcd96b5308a246b86665d364f70675564f157bfc7594b383af1f",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "11.0.18-10-2"
+        "version": "11.0.18-10-3"
     },
     "wavefront-proxy": {
         "arch": "amd64",
-        "digest": "1eb3cfd5f87bf821bd2a5da8aaf8184da64abf8060d614398ff1ed39ba1c08a5",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "11.4.0-5"
+        "version": "11.4.0-6"
     }
 }

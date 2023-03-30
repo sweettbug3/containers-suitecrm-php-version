@@ -1,23 +1,20 @@
 {
     "node": {
         "arch": "amd64",
-        "digest": "af036d4ce8c216d61f662a522345caac4f4822fec1fdb2383302b5b1b9f2ffc9",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "16.19.1-1"
+        "version": "16.19.1-2"
     },
     "python": {
         "arch": "amd64",
-        "digest": "d1ef0d0e577eb68d61ffda2378cb61c756d6a92db7e0ead6ed8c2b19e600ee77",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "3.8.16-6"
+        "version": "3.8.16-8"
     },
     "supabase-postgres-meta": {
         "arch": "amd64",
-        "digest": "03f2ad4218bd49e4fe261a6c3dba0f7372aaebcd94db3b4da062dd5d8e483524",
         "distro": "debian-11",
         "type": "NAMI",
-        "version": "0.60.7-0"
+        "version": "0.62.0-0"
     }
 }

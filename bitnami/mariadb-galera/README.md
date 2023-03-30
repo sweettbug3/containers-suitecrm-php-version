@@ -5,7 +5,6 @@
 > MariaDB Galera is a multi-primary database cluster solution for synchronous replication and high availability.
 
 [Overview of MariaDB Galera](https://mariadb.com/kb/en/library/galera-cluster/)
-
 Trademarks: This software listing is packaged by Bitnami. The respective trademarks mentioned in the offering are owned by the respective companies, and use of them does not imply any affiliation or endorsement.
 
 ## TL;DR
@@ -679,7 +678,7 @@ docker-compose up mariadb
 
 ## Notable Changes
 
-### 10.2.41-debian-10-r11, 10.3.32-debian-10-r11, 10.4.22-debian-10-r11, 10.5.13-debian-10-r10 and 10.6.5-debian-10-r10
+### 10.2.41-debian-10-r11, 10.3.32-debian-10-r11, 10.4.22-debian-10-r11, 10.5.13-debian-10-r10, 10.6.5-debian-10-r10, 10.3.38-r6-debian-11, 10.4.28-r6-debian-11, 10.5.19-r5-debian-11, 10.6.12-r5-debian-11, 10.7.8-r5-debian-11, 10.8.7-r5-debian-11, 10.9.5-r5-debian-11 and 10.10.3-r5-debian-11
 
 * The command `mysql_upgrade` no longer includes the flag `--force`. Nonetheless, it can be enabled by using the [mysql_upgrade] option group in the MariaDB configuration.
 

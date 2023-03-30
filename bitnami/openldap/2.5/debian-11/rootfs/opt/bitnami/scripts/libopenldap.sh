@@ -41,6 +41,7 @@ export PATH="${LDAP_BIN_DIR}:${LDAP_SBIN_DIR}:$PATH"
 export LDAP_TLS_CERT_FILE="${LDAP_TLS_CERT_FILE:-}"
 export LDAP_TLS_KEY_FILE="${LDAP_TLS_KEY_FILE:-}"
 export LDAP_TLS_CA_FILE="${LDAP_TLS_CA_FILE:-}"
+export LDAP_TLS_VERIFY_CLIENTS="${LDAP_TLS_VERIFY_CLIENTS:-never}"
 export LDAP_TLS_DH_PARAMS_FILE="${LDAP_TLS_DH_PARAMS_FILE:-}"
 # Users
 export LDAP_DAEMON_USER="slapd"
@@ -282,7 +283,7 @@ olcDatabase: frontend
 dn: olcDatabase=config,cn=config
 objectClass: olcDatabaseConfig
 olcDatabase: config
-olcAccess: to * by dn.base="gidNumber=0+uidNumber=1001,cn=peercred,cn=external,cn=auth" manage by * none
+olcAccess: to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" manage by * none
 
 #
 # Server status monitoring
@@ -291,7 +292,7 @@ olcAccess: to * by dn.base="gidNumber=0+uidNumber=1001,cn=peercred,cn=external,c
 dn: olcDatabase=monitor,cn=config
 objectClass: olcDatabaseConfig
 olcDatabase: monitor
-olcAccess: to * by dn.base="gidNumber=0+uidNumber=1001,cn=peercred,cn=external,cn=auth" read by dn.base="cn=Manager,dc=my-domain,dc=com" read by * none
+olcAccess: to * by dn.base="gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth" read by dn.base="cn=Manager,dc=my-domain,dc=com" read by * none
 
 #
 # Backend database definitions
@@ -664,6 +665,9 @@ olcTLSCertificateFile: $LDAP_TLS_CERT_FILE
 -
 replace: olcTLSCertificateKeyFile
 olcTLSCertificateKeyFile: $LDAP_TLS_KEY_FILE
+-
+replace: olcTLSVerifyClient
+olcTLSVerifyClient: $LDAP_TLS_VERIFY_CLIENTS
 EOF
     if [[ -f "$LDAP_TLS_DH_PARAMS_FILE" ]]; then
         cat >> "${LDAP_SHARE_DIR}/certs.ldif" << EOF

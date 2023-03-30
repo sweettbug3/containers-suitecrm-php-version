@@ -18,8 +18,7 @@
               }
             },
             "architectures": [
-              "linux/amd64",
-              "linux/arm64"
+              "linux/amd64"
             ]
           }
         },
@@ -54,7 +53,7 @@
         {
           "action_id": "osspi-application",
           "params": {
-            "additional_packages_file": "{VIB_ENV_PATH}/osspi-packages.json",
+            "additional_packages_file": "osspi-packages-amd64.json",
             "scan_type": "BASE_OS",
             "osm": {
               "product_name": "main-catalog-{VIB_ENV_CONTAINER}",
@@ -62,7 +61,7 @@
             },
             "resources": {
               "url": "{VIB_ENV_PACKAGES_JSON_URL}",
-              "path": "/",
+              "path": "/{VIB_ENV_PATH}",
               "authn": {
                   "header": "Authorization",
                   "token": "Bearer {VIB_ENV_GITHUB_TOKEN}"
@@ -83,8 +82,10 @@
             "repository": {
               "kind": "OCI",
               "url": "{VIB_ENV_REGISTRY_URL}",
-              "username": "{VIB_ENV_REGISTRY_USERNAME}",
-              "password":  "{VIB_ENV_REGISTRY_PASSWORD}"
+              "authn": {
+                "username": "{VIB_ENV_REGISTRY_USERNAME}",
+                "password": "{VIB_ENV_REGISTRY_PASSWORD}"
+              }
             }
           }
         }
